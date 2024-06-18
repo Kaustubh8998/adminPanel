@@ -1,5 +1,5 @@
 import React from "react";
-import adminProfile from "../src/assets/adminProfile.jpg";
+import adminProfile from "./src/assets/adminProfile.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
