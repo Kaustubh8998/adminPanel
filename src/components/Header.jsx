@@ -50,7 +50,7 @@ const Header = () => {
             </i>
             <div className="pl-16">
               <img
-                src={adminProfile}
+                src="../assets/adminProfile.jpg"
                 alt=""
                 className="w-14 h-14 rounded-full"
               />
