@@ -7,7 +7,7 @@ const SideBar = () => {
     <>
       <div className="w-[297px] flex flex-col bg-white shadow-lg p-4 pb-[120px]">
         <div className="py-[56px]">
-          <img src={quickMeds} alt="Logo" className="h-16 mx-auto" />
+          <img src="./src/assets/quickMeds.png" alt="Logo" className="h-16 mx-auto" />
         </div>
         <div className="pl-7 pb-10 text-[20px]">
           <p className="text-gray-400 font-jakarta">Menu</p>
