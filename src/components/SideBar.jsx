@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import quickMeds from "../src/assets/quickMeds.png";
+import quickMeds from "./src/assets/quickMeds.png";
 import "@fontsource/plus-jakarta-sans";
 
 const SideBar = () => {
