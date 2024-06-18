@@ -1,5 +1,5 @@
 import React from "react";
-import adminProfile from "../assets/adminProfile.jpg";
+import adminProfile from "../src/assets/adminProfile.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
@@ -50,7 +50,7 @@ const Header = () => {
             </i>
             <div className="pl-16">
               <img
-                src="../src/assets/adminProfile.jpg"
+                src={adminProfile}
                 alt=""
                 className="w-14 h-14 rounded-full"
               />
