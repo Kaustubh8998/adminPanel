@@ -7,5 +7,10 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
+<<<<<<< HEAD
   base: "/",
 });
+=======
+  base:"./"
+})
+>>>>>>> cb14326b0a44e08bfb5b4ba5f7ef5207324afbb1
