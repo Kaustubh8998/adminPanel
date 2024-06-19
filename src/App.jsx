@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="h-[1221px] bg-[url('./assets/bg-image.png')] bg-cover ">
+        <div className="h-[1221px] bg-[url('/assets/bg-image.png')] bg-cover ">
           <Routes>
             <Route path="/" element={<AdminOrders />} />
             <Route path="/admin/billing" element={<AddressInfo />} />

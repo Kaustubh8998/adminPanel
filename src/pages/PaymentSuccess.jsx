@@ -2,7 +2,7 @@ import React from "react";
 import SideBar from "../components/SideBar";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
-import paymentSuccess from "../assets/paymentSuccess.png";
+import paymentSuccess from "/assets/paymentSuccess.png";
 
 const PaymentSuccess = () => {
   return (

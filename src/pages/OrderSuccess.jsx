@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
-import orderSuccess from "../assets/orderSuccess.png";
+import orderSuccess from "/assets/orderSuccess.png";
 
 const OrderSuccess = () => {
   return (
