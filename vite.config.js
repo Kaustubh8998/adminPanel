@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
-  base: "./adminPanel/",
+  base: "./adminPanel",
 });
