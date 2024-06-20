@@ -1,22 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import SideBar from "../components/SideBar";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import Stepper from "../components/Stepper";
 
 const AddressInfo = () => {
+  const [currentStep, setCurrentStep] = useState(2);
   return (
     <>
       <div className="flex">
-        <SideBar />
         <div className="flex-1 flex-col">
-          <Header />
           <div className="pl-8 pr-12">
             <div className="bg-white flex flex-col rounded-3xl h-[48.5rem] w-full">
               <div className="pt-4 pl-6 pb-8 pr-8">
                 <h2 className="text-[18px] text-[#15A9A0] pb-[1.25rem] border-b-[1px]">
                   Order For Someone
                 </h2>
-                <div className="flex items-center justify-between space-x-2 mt-10 px-[18.375rem]">
+                {/* <div className="flex items-center justify-between space-x-2 mt-10 px-[18.375rem]">
                   <div className="flex flex-col items-center space-x-2">
                     <div className="flex items-center justify-center w-10 h-10 bg-teal-500 rounded-full text-white">
                       <svg
@@ -86,7 +86,8 @@ const AddressInfo = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
+                <Stepper currentStep={currentStep} />
                 <div className="pt-16">
                   <h1 className="text-[24px] text-[#15A9A0]">
                     Add Customer Information

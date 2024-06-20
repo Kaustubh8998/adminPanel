@@ -3,12 +3,11 @@ import adminProfile from "/assets/adminProfile.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const navigate = useNavigate();
   return (
     <>
-      <div className="flex-1 flex-col pl-8 pr-12 pt-20">
+      <div className=" flex-col pl-8 pr-12 pt-14">
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-[34px] font-semibold">Admin Order</h1>
+          <h1 className="text-[34px] font-bold">Admin Order</h1>
           <div className="flex space-x-2 items-center">
             <div className="relative border flex items-center border-gray-300 rounded-[13px] bg-gradient-to-r from-white to-[#dffffd] w-[30rem]">
               <i className="pl-4 py-[1rem]">
@@ -31,7 +30,7 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="Search"
-                className="font-lg bg-transparent pl-5 focus:outline-none"
+                className="font-medium bg-transparent pl-5 focus:outline-none"
               />
             </div>
 
@@ -58,8 +57,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center pt-[1.125rem] pb-6 border-b-[1px] border-black border-opacity-10">
-          <button
+        <div className="flex justify-end  items-center pt-[1.125rem] pb-6 border-b-[1px] border-black border-opacity-10">
+          {/* <button
             onClick={() => navigate("/admin/order")}
             className="flex items-center bg-white px-5 py-2 rounded-full justify-around "
           >
@@ -78,8 +77,8 @@ const Header = () => {
               </svg>
             </i>
             <p className="pl-[6px]">Order For Someone</p>
-          </button>
-          <div className="flex items-center ">
+          </button> */}
+          <div className="flex items-center">
             <div className="bg-white flex items-center justify-center px-4 py-2 rounded-full">
               <input
                 className="focus:outline-none"

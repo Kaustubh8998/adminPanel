@@ -45,7 +45,7 @@ const Table = () => {
   ];
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto h-[776px]">
       <h2 className="text-2xl font-bold py-4 border-b-[1px] border-black border-opacity-10">
         Past Orders
       </h2>

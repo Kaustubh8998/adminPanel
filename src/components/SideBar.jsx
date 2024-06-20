@@ -1,19 +1,23 @@
 import { Link } from "react-router-dom";
 import quickMeds from "/assets/quickMeds.png";
 import "@fontsource/plus-jakarta-sans";
+import "../index.css";
 
 const SideBar = () => {
   return (
     <>
-      <div className="w-[297px] flex flex-col bg-white shadow-lg p-4 pb-[120px]">
+      <div className="w-[22%] h-[68.813rem] flex flex-col bg-white shadow-lg pb-[120px]">
         <div className="py-[56px]">
           <img src={quickMeds} alt="Logo" className="h-16 mx-auto" />
         </div>
         <div className="pl-7 pb-10 text-[20px]">
           <p className="text-gray-400 font-jakarta">Menu</p>
         </div>
-        <nav className="sidebar space-y-4 pl-12 text-[20px] font-normal font-jakarta pb-24">
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2 ">
+        <nav className="sidebar text-[20px] font-normal font-jakarta pb-24">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="24"
@@ -30,7 +34,10 @@ const SideBar = () => {
             </i>
             <span>Dashboard</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2 ">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="24"
@@ -56,8 +63,8 @@ const SideBar = () => {
             <span>Orders</span>
           </Link>
           <Link
-            to={"/admin"}
-            className="text-gray-400 flex items-center space-x-2"
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
           >
             <i>
               <svg
@@ -102,7 +109,10 @@ const SideBar = () => {
             </i>
             <span>Users</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="24"
@@ -121,7 +131,10 @@ const SideBar = () => {
             </i>
             <span>Vendors</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="19"
@@ -140,7 +153,10 @@ const SideBar = () => {
             </i>
             <span>Products</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="24"
@@ -157,13 +173,16 @@ const SideBar = () => {
             </i>
             <span>Questions</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i></i>
             <span>Requests</span>
           </Link>
           <Link
             to={"/"}
-            className="text-gray-400 flex items-center space-x-2 bg-[#EBF4F9]"
+            className="text-gray-400 flex items-center space-x-2 bg-[#EBF4F9] pl-12 py-4"
           >
             <i>
               <svg
@@ -181,7 +200,10 @@ const SideBar = () => {
             </i>
             <span>Admin Orders</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="19"
@@ -198,7 +220,10 @@ const SideBar = () => {
             </i>
             <span>Category</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="24"
@@ -217,7 +242,10 @@ const SideBar = () => {
             </i>{" "}
             <span>Discounts</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="22"
@@ -234,7 +262,10 @@ const SideBar = () => {
             </i>{" "}
             <span>Banners</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="22"
@@ -287,7 +318,10 @@ const SideBar = () => {
             </i>
             <span>Lab Tests</span>
           </Link>
-          <Link to={"/"} className="text-gray-400 flex items-center space-x-2">
+          <Link
+            to={"/"}
+            className="text-gray-400 flex items-center space-x-2 pl-12 py-4"
+          >
             <i>
               <svg
                 width="24"

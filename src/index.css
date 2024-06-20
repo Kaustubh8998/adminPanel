@@ -1,5 +1,5 @@
 @import "@fontsource/plus-jakarta-sans";
-
+@import "../public/assets/fonts/fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
