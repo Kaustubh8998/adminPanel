@@ -14,13 +14,13 @@ const Order = () => {
           <div className="pl-8 pr-12">
             <div className="bg-white flex flex-col rounded-3xl h-[48.5rem] w-full">
               <div className="pt-4 pl-6 pb-8 pr-8">
-                <h2 className="text-[18px] text-[#15A9A0] pb-[1.25rem] border-b-[1px]">
+                <h2 className="text-[18px] text-[#15A9A0] pb-[1.25rem] border-b-[1px] font-semibold">
                   Order For Someone
                 </h2>
                 <Stepper currentStep={currentStep} />
                 <div className="flex flex-col h-full">
                   <div className="flex justify-between w-full pt-14">
-                    <h2 className="text-[#15A9A0] text-[24px]">
+                    <h2 className="text-[#15A9A0] text-[24px] font-semibold">
                       Select Products
                     </h2>
                     <div className="flex items-center justify-between w-[24rem] px-[1.25rem] py-2 rounded-full bg-[#15A9A01A]">

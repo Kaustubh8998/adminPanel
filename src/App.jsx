@@ -25,7 +25,7 @@ function App() {
               <Route path="/admin/ordersuccess" element={<OrderSuccess />} />
               <Route path="/admin/order" element={<Order />} />
             </Routes>
-            <div className="flex w-full h-[7%] mt-[8.625rem] items-center justify-center bg-white">
+            <div className="flex w-full h-[6%] mt-[9.425rem] items-center justify-center bg-white">
               <div className="flex items-center justify-between px-[21rem] w-full">
                 <button className="w-10 h-10 bg-[#FDFDFD]">&#60;</button>
                 <p className="text-xl text-[#6B6B6B]">Page 1 of 8</p>
